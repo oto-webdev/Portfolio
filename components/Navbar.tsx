@@ -40,7 +40,7 @@ const Navbar = () => {
 
       <button
         onClick={handleToggle}
-        className="md:hidden absolute top-5 right-14 border rounded z-50 text-white/70 border-white/70 p-2"
+        className="md:hidden absolute top-5 right-4 border rounded z-50 text-white/70 border-white/70 p-2"
         aria-label="Toggle menu"
       >
         {toggle ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
@@ -56,7 +56,7 @@ const Navbar = () => {
             <li key={index} onClick={handleClose}>
               <Link
                 href={link.path}
-                className="transform hover:text-white/50 transition-all duration-300 ease-in-out"
+                className="transform hover:text-white/50 transition-all duration-300 ease-in-out text-4xl"
               >
                 {link.title}
               </Link>
