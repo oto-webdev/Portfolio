@@ -1,3 +1,4 @@
+import Contact from '@/components/Contact';
 import Hero from '@/components/Hero';
 import KeyMetrics from '@/components/KeyMetrics';
 import Portfolio from '@/components/Portfolio';
@@ -11,6 +12,7 @@ const page = () => {
       <Stack />
       <Portfolio />
       <KeyMetrics />
+      <Contact />
     </div>
   )
 }

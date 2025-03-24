@@ -63,7 +63,7 @@ const Portfolio = () => {
         backgroundImage: { duration: 1.5, ease: "easeInOut" }, 
       }}
     >
-      <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12">
+      <div className="max-w-[1200px] mx-auto px-4 grid lg:grid-cols-2 gap-12">
         <div>
           <h2 className="text-6xl font-bold mb-10">
             Selected <span className="text-gray-400">Projects</span>

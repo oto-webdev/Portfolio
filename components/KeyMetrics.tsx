@@ -37,7 +37,7 @@ const KeyMetrics = () => {
       initial={{ opacity: 0, y: 50 }}
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
       transition={{ duration: 0.8 }}
-      className='container mx-auto px-4 py-32 text-white'
+      className='max-w-[1200px] mx-auto px-4 py-24 text-white'
     >
       <motion.h2 
         initial={{ opacity: 0, y: 20 }}
