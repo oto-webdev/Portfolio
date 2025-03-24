@@ -55,7 +55,7 @@ const KeyMetrics = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ delay: 0.4 + index * 0.1, duration: 0.6 }}
-            className='flex flex-col bg-gray-800 p-6 rounded-lg shadow-lg'
+            className='flex flex-col bg-gray-800 p-6 rounded-lg shadow-lg hover:translate-[-10px] duration-500 ease-in-out' 
           >
             <motion.h3 
               initial={{ scale: 0.5 }}
