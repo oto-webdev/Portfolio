@@ -3,7 +3,7 @@ import { FaReact } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
 import { SiTypescript, SiMongodb } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
-
+//st
 const stackItems = [
   {
     id: 1,
