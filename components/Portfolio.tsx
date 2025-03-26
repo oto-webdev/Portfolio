@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion'; 
-import Image from 'next/image';
 import Link from 'next/link';
 import project from '@/public/project1.png';
 
@@ -83,6 +82,7 @@ const Portfolio = () => {
           ))}
         </div>
 
+          {/* Image 
         <img 
           src={selectedProject.image.src} 
           alt={selectedProject.title} 
@@ -90,6 +90,7 @@ const Portfolio = () => {
           height={450}
           className="rounded-xl shadow-lg transition-opacity duration-500 ease-in-out" 
         />
+        */}
       </div>
     </motion.section>
   );
