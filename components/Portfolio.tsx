@@ -4,24 +4,11 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion'; 
 import Image from 'next/image';
 import project1 from '@/public/project1.PNG';
+import Link from 'next/link';
 
 const projects = [
   {
     id: 1,
-    year: 2025,
-    title: "clicks.ge",
-    description: "I developed a website for a small business that offers IT services. It is mobile responsive and user friendly and has very good performance. In local states it is ranked top 2 in Google search results.",
-    image: project1,
-  },
-  {
-    id: 2,
-    year: 2025,
-    title: "clicks.ge",
-    description: "I developed a website for a small business that offers IT services. It is mobile responsive and user friendly and has very good performance. In local states it is ranked top 2 in Google search results.",
-    image: project1,
-  },
-  {
-    id: 3,
     year: 2025,
     title: "clicks.ge",
     description: "I developed a website for a small business that offers IT services. It is mobile responsive and user friendly and has very good performance. In local states it is ranked top 2 in Google search results.",
@@ -65,7 +52,7 @@ const Portfolio = () => {
     >
       <div className="max-w-[1200px] mx-auto px-4 grid lg:grid-cols-2 gap-12">
         <div>
-          <h2 className="text-6xl font-bold mb-10">
+          <h2 className="sm:text-6xl text-4xl font-bold mb-10">
             Selected <span className="text-gray-400">Projects</span>
           </h2>
           {projects.map((project) => (
@@ -75,6 +62,7 @@ const Portfolio = () => {
               className="cursor-pointer mb-8 group"
             >
               <p className="text-gray-400 text-lg mb-2">{project.year}</p>
+              <Link href={"https://clicks.ge"} target="_blank">
               <h3
                 className={`text-3xl font-semibold group-hover:text-gray-400 transition-colors ${
                   selectedProject.id === project.id ? 'text-gray-200' : ''
@@ -82,6 +70,7 @@ const Portfolio = () => {
               >
                 {project.title}
               </h3>
+              </Link>
               {selectedProject.id === project.id && (
                 <div className="border-b-2 border-gray-200 my-4"></div>
               )}
