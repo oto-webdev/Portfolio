@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion'; 
 import Image from 'next/image';
-import project1 from '@/public/project1.PNG';
+import project1 from '@/public/project1.png';
 import Link from 'next/link';
 
 const projects = [
