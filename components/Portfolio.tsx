@@ -3,8 +3,8 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion'; 
 import Image from 'next/image';
-import project1 from '@/public/project1.png';
 import Link from 'next/link';
+import project from '@/public/project1.png';
 
 const projects = [
   {
@@ -12,7 +12,7 @@ const projects = [
     year: 2025,
     title: "clicks.ge",
     description: "I developed a website for a small business that offers IT services. It is mobile responsive and user friendly and has very good performance. In local states it is ranked top 2 in Google search results.",
-    image: project1,
+    image: project,
   },
 ];
 
@@ -83,12 +83,12 @@ const Portfolio = () => {
           ))}
         </div>
 
-        <Image
-          src={selectedProject.image.src}
-          alt={selectedProject.title}
+        <img 
+          src={selectedProject.image.src} 
+          alt={selectedProject.title} 
           width={800}
           height={450}
-          className="rounded-xl shadow-lg transition-opacity duration-500 ease-in-out"
+          className="rounded-xl shadow-lg transition-opacity duration-500 ease-in-out" 
         />
       </div>
     </motion.section>
