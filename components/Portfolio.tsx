@@ -82,7 +82,6 @@ const Portfolio = () => {
           ))}
         </div>
 
-          {/* Image 
         <img 
           src={selectedProject.image.src} 
           alt={selectedProject.title} 
@@ -90,7 +89,7 @@ const Portfolio = () => {
           height={450}
           className="rounded-xl shadow-lg transition-opacity duration-500 ease-in-out" 
         />
-        */}
+        
       </div>
     </motion.section>
   );
