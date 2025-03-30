@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion'; 
 import Link from 'next/link';
-import project from '@/public/project1.png';
 
 const projects = [
   {
@@ -11,7 +10,6 @@ const projects = [
     year: 2025,
     title: "clicks.ge",
     description: "I developed a website for a small business that offers IT services. It is mobile responsive and user friendly and has very good performance. In local states it is ranked top 2 in Google search results.",
-    image: project,
   },
 ];
 
