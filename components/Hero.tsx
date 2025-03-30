@@ -32,6 +32,7 @@ const Hero = () => {
 
         <p className='my-6 max-w-xl text-balance'>Full-stack developer based in Tbilisi, Georgia.</p>
 
+        {/*
         <motion.button 
           style={{
             border,
@@ -43,6 +44,7 @@ const Hero = () => {
         >
           DOWNLOAD CV
         </motion.button>
+        */}
       </div>
     </motion.section>
   );

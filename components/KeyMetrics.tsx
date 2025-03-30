@@ -8,7 +8,7 @@ const metrics = [
     id: 1,
     value: "2+",
     label: "Learning Programming",
-    description: "Dedicated to learning and mastering a wide range of programming languages, including JavaScript, Python and TypeScript"
+    description: "Dedicated to learning and mastering a wide range of programming languages, including JavaScript and TypeScript"
   },
   {
     id: 2,
