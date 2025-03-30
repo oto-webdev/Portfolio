@@ -7,8 +7,6 @@ const greenColor = "#13FFAA";
 
 const Hero = () => {
   const backgroundImage = `radial-gradient(125% 125% at 50% 0%, #000 50%, ${greenColor})`;
-  const border = `1px solid ${greenColor}`;
-  const section = `0px 4px 24px ${greenColor}`;
 
   return (
     <motion.section 
