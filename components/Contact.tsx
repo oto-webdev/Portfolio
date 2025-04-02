@@ -5,14 +5,14 @@ const Contact = () => {
     <section id="contact" className='py-20 text-white max-w-[1200px] w-[90%] mx-auto sm:px-4 px-2'>
       <div className='grid md:grid-cols-2 gap-16'>
         <div className='space-y-12'>
-          <h2 className='sm:text-7xl text-4xl font-bold text-gray-300'>
+          <h2 className='sm:text-7xl text-5xl font-bold text-gray-300'>
             Get in <span className='text-gray-500'>touch</span>
           </h2>
 
           <div className='glass p-8 rounded-2xl space-y-8'>
             <div className='space-y-2'>
               <p className='sm:text-lg text-md text-gray-300'>Email</p>
-              <a href="mailto:otoramishvili10@gmail.com" className='sm:text-2xl text-lg font-semibold hover:text-gray-400 transition duration-300 flex items-center gap-2'>
+              <a href="mailto:otoramishvili10@gmail.com" className='md:text-2xl text-md font-semibold hover:text-gray-400 transition duration-300 flex items-center gap-2'>
                 otoramishvili10@gmail.com
               </a>
             </div>

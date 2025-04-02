@@ -20,14 +20,14 @@ const Hero = () => {
         </span>
 
         <h1 className='text-white/40 sm:text-7xl text-5xl font-black'>Hi, I am</h1>
-        <h1 className='max-w-3xl bg-gradient-to-br bg-clip-text from-white to-gray-400 font-black leading-tight text-transparent md:text-7xl text-3xl'>
+        <h1 className='max-w-3xl bg-gradient-to-br bg-clip-text from-white to-gray-400 font-black leading-tight text-transparent md:text-7xl text-5xl'>
           Oto Ramishvili
         </h1>
 
         <div className='flex bg-white/10 shadow-xl p-3 rounded-3xl justify-center items-center space-x-2 mb-4'>
           <p>2+ Happy clients</p>
         </div>
-
+ 
         <p className='my-6 max-w-xl text-balance'>Full-stack developer based in Tbilisi, Georgia.</p>
 
         {/*

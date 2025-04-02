@@ -49,7 +49,7 @@ const Portfolio = () => {
     >
       <div className="max-w-[1200px] mx-auto px-4 grid lg:grid-cols-2 gap-12">
         <div>
-          <h2 className="sm:text-6xl text-4xl font-bold mb-10">
+          <h2 className="sm:text-6xl text-5xl font-bold mb-10">
             Selected <span className="text-gray-400">Projects</span>
           </h2>
           {projects.map((project) => (

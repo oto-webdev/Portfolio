@@ -61,7 +61,7 @@ const KeyMetrics = () => {
               initial={{ scale: 0.5 }}
               animate={isInView ? { scale: 1 } : { scale: 0.5 }}
               transition={{ delay: 0.6 + index * 0.1, duration: 0.4, type: "spring" }}
-              className="text-5xl font-bold text-purple-300 mb-2"
+              className="sm:text-6xl text-5xl font-bold text-purple-300 mb-2"
             >
               {metric.value}
             </motion.h3>
